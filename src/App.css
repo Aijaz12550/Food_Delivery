@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+.regDiv{
+  background-color: rgba(255, 255, 255, 0.315);
+  min-height: 7vh;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  color: white;
+}
+.product{
+  display:'flex';
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+float:left;
+  border:ridge 2px;
+  width:170px;
+  margin-left: 80px;
+  margin-bottom: 8%;
+  margin-right: 3%;
+}
+.foodImg{
+  width:10px
+}
+div{
+  /* box-shadow:5px 5px 4px 6px rgb(240, 237, 237) */
+}
+button{
+  margin: 1%;
+  background-color: #296;
+  height: 30px;
+  width:90px;
+  color:white;
+  border:none;
+  outline:none;
+}
+button:hover{
+  background-color: white;
+  color:#296;
+  border:solid 2px #296;
+}
+button:active{
+  background-color: rgb(53, 90, 53);
+  color:white;
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+input{
+  height:30px;
+  margin:1%;
+  font-size: 17px
+}
+
+.App-header {
+  background-color: white;
+  min-height: 7vh;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  color:Darkgreen;
+  
+}
+/* .loader{
+  width:100%;
+  height: 500px;
+  background-color: rgba(210, 227, 230, 0.568)
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
